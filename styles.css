@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  
+
+}
+
+p{
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+
+h1.title{
+  margin-bottom: 20px;
+  color: #cc6600;
+  font-family: 'ARIAL';
+  text-transform: uppercase;
+  font-size: 32px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+
+
+.main_container{
+  position: relative;
+}
+
+
+/* Navigation Bar */
+.logo {
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+background-color: #0000e6;
+}
+
+
+nav{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+nav a:hover{
+	background-color:  #cc6600;
+	color: #e67300;
+}
+
+.logo a {
+  font-family: 'ARIAL';
+  margin: 20px;
+  font-size: 32px;
+  color: #e67300;
+}
+
+
+
+
+nav nav-items ul{
+  display: flex;
+}
+
+nav nav-items ul li{
+  text-transform: uppercase;
+  margin: 0 10px;
+  color: #fff;
+}
+
+
+nav nav-items ul li a{
+  color: #fff;
+}
+
+/* Banner Image */
+
+.banner_image{
+background: url("images/banner.jpg")no-repeat top center;
+background-size: cover;
+width: 100%;
+height: 400px;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+
+.banner_content{
+  text-align: center;
+  color: #fff;
+}
+
+.banner_content h1{
+  text-transform: uppercase;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+
+/* About Us */
+.about,
+.contactme,
+.mymodules,
+.web_dev{
+  padding: 5% 10%;
+  text-align:center;
+}
+
+
+
+/* contact Me */
+.contactme{
+  background: #f5f5f5;
+}
+
+.form_input{
+  margin-bottom: 15px;
+
+}
+
+.form_input input[type= "text"]{
+  width: 250px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+
+}
+
+.form_input textarea{
+  width: 250px;
+  padding: 12px 20px;
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccc;
+
+}
+
+
+/* My Modules */
+.mymodules{
+	background: #e6e6ff;
+}
+
+
+h2{
+  margin-bottom: 20px;
+  color: #cc6600;
+  font-family: 'Nerko One', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 32px;
+  word-spacing: 20px;
+  letter-spacing: 5px
+}
+
+
+.mymodules_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.mymodules_wrapper .modules{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mymodules_wrapper .modules-1 .modules{
+  margin-bottom: 25px;
+}
+
+.mymodules_wrapper .modules-2 .modules{
+	 margin-right: 25px;
+}
+
+.mymodules_wrapper .modules_name{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.mymodules_wrapper .modules_name img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.10s ease;
+}
+
+.mymodules_wrapper .modules_name :hover img{
+	transform: scale(1.1);
+}
+
+/* My Modules Page */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+img{
+  max-width: 100%;
+  align-items: baseline;
+}
+
+.img-web_dev{
+  flex-basis: 60%
+}
+
+
+
+
+/* CV Page */
+
+
+
+
+/* Footer */
+footer{
+  width: 100%;
+  text-align: center;
+  background: #444444;
+  padding: 10px 0;
+}
+
+footer a{
+  color: white;
+
+}
+
+
+@media (max-width: 720px){
+  .navbar{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .navbar ul{
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .navbar ul li{
+    margin-bottom: 20px;
+  }
+
+  .banner_content{
+    margin-top: 35px;
+  }
+}
+
+
+
+
+
+/* Web Development */
+h1{
+  margin-top: 25px;
+  color: #cc6600;
+  font-family: 'ARIAL';
+  text-transform: uppercase;
+  font-size: 32px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+
+p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+}
